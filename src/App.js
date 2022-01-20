@@ -3,7 +3,6 @@ import LikeButton from "./components/LikeButton";
 import Heading from "./components/Heading";
 import Loading from "./components/Loading";
 import React, { useState, useEffect } from "react";
-// import HttpClient from "./HttpClient";
 
 const App = () => {
   const [apod, setApod] = useState({});
